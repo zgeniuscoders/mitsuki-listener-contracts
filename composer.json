@@ -1,20 +1,23 @@
 {
-    "name": "mitsuki/contracts",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Mitsuki\\Contracts\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "zgeniusecoders",
-            "email": "zgeniusecoders@gmail.com"
-        }
-    ],
-    "require": {
-        "symfony/event-dispatcher": "^8.0",
-        "symfony/http-kernel": "^8.0"
+  "name": "mitsuki/contracts",
+  "type": "library",
+  "license": "MIT",
+  "description": "Core interfaces for the Mitsuki framework kernel and event listeners.",
+  "autoload": {
+    "psr-4": {
+      "Mitsuki\\Contracts\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "zgeniusecoders",
+      "email": "zgeniusecoders@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/event-dispatcher": "^8.0",
+    "symfony/http-kernel": "^8.0"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
