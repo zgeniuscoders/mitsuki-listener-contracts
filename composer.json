@@ -1,5 +1,5 @@
 {
-  "name": "mitsuki/contracts",
+  "name": "mitsuki/listener-contracts",
   "type": "library",
   "license": "MIT",
   "description": "Core interfaces for the Mitsuki framework kernel and event listeners.",
